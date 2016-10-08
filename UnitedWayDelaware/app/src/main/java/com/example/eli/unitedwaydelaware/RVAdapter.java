@@ -81,19 +81,23 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.EventViewHolder> {
             }
         });
         eventHolder.btnRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+                                                       @Override
+                                                       public void onClick(View v) {
 
-                if ()) {
-                    eventHolder.btnRegister.setImageResource(R.drawable.check);
-                    Toast.makeText(context, "You have unregistered for this event", Toast.LENGTH_SHORT).show();
-                } else {
-                    eventHolder.btnRegister.setImageResource(R.drawable.checkedcheck);
-                    Toast.makeText(context, "You are registered for this event", Toast.LENGTH_SHORT).show();
-                }
+                                                           if (Main2Activity.volunteer == Globals.skipped) {
+                                                               Toast.makeText(context, "You are not logged in.  " +
+                                                                       "Please log in and try again", Toast.LENGTH_LONG).show();
+                                                           } else {
 
-            }
-        });
+                                                               eventHolder.btnRegister.setImageResource(R.drawable.checkedcheck);
+                                                               Toast.makeText(context, "You are registered for this event", Toast.LENGTH_SHORT).show();
+                                                           }
+                                                       }
+
+
+                                                   }
+
+        );
     }
 
     @Override

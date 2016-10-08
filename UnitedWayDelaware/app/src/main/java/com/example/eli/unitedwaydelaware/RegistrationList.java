@@ -8,7 +8,8 @@ public class RegistrationList {
     private String name;
 
 
-    public void addToRegistrationList(String name){
-        this.name=name;
+    public void addToRegistrationList(String name) {
+        this.name = name;
     }
+
 }

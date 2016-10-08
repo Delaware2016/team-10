@@ -1,5 +1,8 @@
 package com.example.eli.unitedwaydelaware;
 
+import android.widget.Button;
+import android.widget.EditText;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
@@ -15,8 +18,4 @@ public class VolunteerList {
         volunteers.add(counter, volunteer);
     }
 
-    public boolean checkForLogin(String name) {
-
-
-    }
 }

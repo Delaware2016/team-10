@@ -13,15 +13,17 @@ public class Volunteer {
     double payments;
     boolean isRegistered;
     String email;
+    String password;
 
 
-    public Volunteer(String name,String email){
+    public Volunteer(String name,String email, String password){
         this.name=name;
         this.email=email;
+        this.password=password;
         add();
     }
     public void add(){
-        Volunteer v=new Volunteer(name,email);
+        Volunteer v=new Volunteer(name,email,password);
         vl.add(v);
     }
 }

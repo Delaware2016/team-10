@@ -9,7 +9,7 @@ public class EventClass {
     
     protected String title, description, address, date;
     protected int photo;
-    protected ArrayList<RegistrationList> rl;
+    public static RegistrationList rl;
     
     public EventClass(String title,String description,int photo, String address,String date){
         this.title=title;
@@ -17,7 +17,7 @@ public class EventClass {
         this.photo=photo;
         this.address=address;
         this.date=date;
-        rl=new ArrayList<>();
+        rl=new RegistrationList();
         }
 
 }
