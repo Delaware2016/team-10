@@ -54,7 +54,7 @@ public class PaymentManager {
             if (this.userCard.validateCard()) {
                 message("Here so far!");
                 stripe.createToken(
-                        this.userCard, new TokenCallback() {
+                        this.userCard, "pk_test_M6TIKEnTLXCsit8vzSO7AwYe" ,new TokenCallback() {
                             @Override
                             public void onError(Exception error) {
                                 message(error.getMessage());
@@ -71,38 +71,28 @@ public class PaymentManager {
                                 Map<String, Object> chargeParams = new HashMap<String, Object>();
                                 chargeParams.put("amount", amount); // Amount in cents
                                 chargeParams.put("currency", "usd");
-                                chargeParams.put("source", mytoken.getCard()); // TODO that may be wrong
+                                chargeParams.put("source", mytoken.getId()); // TODO that may be wrong
                                 chargeParams.put("description", "A generous donation to United Way.");
 
-                                try {
-                                    stripe.setDefaultPublishableKey("pk_test_M6TIKEnTLXCsit8vzSO7AwYe");
-                                } catch (AuthenticationException e) {
-                                    e.printStackTrace();
-                                }
-
+                                message(mytoken.getId());
 
                                 // Submit charge to user.
                                 Charge charge;
                                 try {
                                     message("About to charge");
-                                     charge = Charge.create(chargeParams);
+                                    charge = Charge.create(chargeParams);
                                     message("Yo it's been charged!" + charge.getDescription());
                                 } catch (InvalidRequestException e) {
-                                    e.printStackTrace();
+                                    message(e.getMessage());
                                 } catch (APIConnectionException e) {
-                                    e.printStackTrace();
+                                    message(e.getMessage());
                                 } catch (APIException e) {
-                                    e.printStackTrace();
+                                    message(e.getMessage());
                                 } catch (CardException e) {
-                                    e.printStackTrace();
+                                    message(e.getMessage());
                                 } catch (AuthenticationException e) {
-                                    e.printStackTrace();
+                                    message(e.getMessage());
                                 }
-
-
-
-
-//                                doneSignal.countDown();
                             }
                         }
                 );
