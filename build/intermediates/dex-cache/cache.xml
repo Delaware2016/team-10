@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_b8740235d1660fd5472fa29609e4afa7e0f17c2f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="47020178bdbd57315c0978650843eb627f9d8e0e">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0d2fe347eb45192c27041fb8efc32bb4a93e575b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.5.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9ef5fb87bb1b632d7843294019eafb00ad443330">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-iconics-core-2.5.3_701668a8a543b5076b34ff93857999d22edd6115\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-8.1.0_f8140f16e9c449a499300308c4833273453b768c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.mikepenz\materialize\0.5.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="25e8af11fff99ad02250f52f2436e25f60cc1bbe">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-materialize-0.5.1_0243e0974e93cb81e5e1db3c48ff4f3589cfa9f1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.1.0_ac0f75fa08435a4192cdc3483dc4fb5347829525\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\4.6.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="387e4a88def451c34bb636d7969cd1c9033a4b9f">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-materialdrawer-4.6.3_2d181420f2e06c2ccbf4d7535f05aa4202518619\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-measurement-8.1.0_8bef98d0b5f4a9c9350ea996387d24449efc89e0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-8.1.0_7735a9863e42599581c5c306c9a3b17ea0d0fcb6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-8.1.0_fe4d1dd65d6554ba3b64fd5cbc77003e990d48a1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_0ee894674915d9b203625b0ac7094d089a534d7b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-8.1.0_d659aaa32f193874f701c877676deaf3e2b479db\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_997b19ba43546167124a9c9f6573c8c9e9bed665\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_9b34b2232498be30ef0e7e634257eac6a194524e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-8.1.0_75368db26ee7e4aade81fa2d81e30d277559dc43\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.10.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="078cad8ebaa25b1eb1790bd622b3a8ae27c9cc7a">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.getbase-floatingactionbutton-1.10.0_309603601c616bf3e8efa1a465faa6f73ebd7888\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-8.1.0_1b41982e3f836d2e52a9cf0e0da5ae74d7f42e37\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-8.1.0_b7cb6fe7c133cf5add492a040ffd6d6ff82479b1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_58ceed7ca6a32011f532702b2bbb7f7c942fa9be\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.2.0_117497d3aff2e1c9540a69db2471778a6aa58857\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-8.1.0_ff306ade659eecafcbe271c8b7f49d3b4d7a2dec\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\parse-android-1.13.0_a06cd6fd1d51275b3d675adfe3e6e8e66a7f5b02\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_bf7dd3c1f3da93a250f6e0ddb32092ff07da9e39\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-8.1.0_75200ee5887a51cc585531a4dae51ed6df1a6be0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-8.1.0_24aa3ab587f33ea53ca775779308af412e6de961\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-8.1.0_68084917c8dce99221eb548c2309ea58328c55ac\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_0cb042df29e9f4b5a687a07fce11585277dd8378\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_2a811d90a6ca6bee0abe89c07d1a56c858be4f52\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.1.0_25bf691e7ad135dca3cb467bcc5e85181e018416\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-8.1.0_22119726a258e3d85b9747fe6967d74476c13121\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.parse\parsefacebookutils-v4-android\1.10.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="771e1739a38be7573c55458d16ca2d2f9f546cf7">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.parse-parsefacebookutils-v4-android-1.10.3_0e3a2f532c46b0d30e4ee11f447d9dd5566db3bd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_d77b61d004bfb197efbdc2148c231df2acb5d537\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-8.1.0_3a1e2cddb115c3c979e46ac40c7507859d0169c1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-8.1.0_aa92c7b5c2c580dd55382ed917c2a6fe67f7cc6d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-8.1.0_b249ee8c06d1372283cdda128ca3c3be704e5bef\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3acb7fad833deaa7a152bd519ccdf1d4e7a6a203">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a8f1e87c5df8bc4b7b06b85e6d0ae2a1016c6d81\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-8.1.0_f45f791fd2b029ef6b64870f72e57fc36145a474\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.7.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5bdb38b7e4b6094891648c1dc4dc08589b460f97">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.7.0_121ec9cd767443c44606e0684a89b9e118c0efc6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-22.2.0_72b829d835e2663532381c4e2128058256c8d10b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-8.1.0_5fc9309ff7c3229453a7118620fd94fc5c87fda1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_fd099bd9619c46ff7a02381ea2d1a6aac4594afc\classes.dex" />
+    </item>
+
+</items>

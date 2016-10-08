@@ -1,0 +1,5 @@
+CHANGED,C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\parse\starter\WelcomeActivity$3$override.class
+CHANGED,C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\parse\starter\WelcomeActivity$override.class
+CHANGED,C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\parse\starter\WelcomeActivity$1$override.class
+CHANGED,C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\Gokul\Desktop\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\parse\starter\WelcomeActivity$2$override.class

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/rLayout"
+    android:background="#00BCD4"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/eventTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event 1"
+        android:textColor="@color/md_white_1000"
+        android:textSize="35sp"
+        />
+    <TextView
+        android:id="@+id/eventDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="75dp"
+        android:textColor="@color/md_white_1000"
+        android:text="Description of Event 1. "
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/share"
+            android:background="@drawable/share"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            />
+        <ImageButton
+            android:id="@+id/attend"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/checked"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            />
+        <TextView
+            android:id="@+id/txtDistance"
+            android:text="0.5mi"
+            android:textColor="@color/md_white_1000"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+</RelativeLayout>
