@@ -27,17 +27,28 @@ public class PaymentManager {
     protected Card userCard;
     protected Token mytoken;
     private static Context context;
+    protected int amountToCharge;
 
-
-    public PaymentManager(String number, int expMonth, int expYear, String cardCVC, Context c) {
+    public PaymentManager(String number, int expMonth, int expYear, String cardCVC) {
         // Set your secret key: remember to change this to your live secret key in production
         // See your keys here: https://dashboard.stripe.com/account/apikeys
         final CountDownLatch doneSignal = new CountDownLatch(1);
+        this.userCard = new Card(number, expMonth, expYear, cardCVC);
+    }
+
+    /**
+     *
+     * @param amount Dollar amount in cents of transaction.
+     * @throws AuthenticationException
+     * @throws APIException
+     */
+    public void chargeCard(final int amount) throws AuthenticationException, APIException {
+        // Create a charge: this will charge the user's card
 
         try {
-            Stripe stripe = new Stripe("pk_test_M6TIKEnTLXCsit8vzSO7AwYe");
-            this.userCard = new Card(number, expMonth, expYear, cardCVC);
-            this.context = c;
+            message("Attempting to charge card!");
+
+            final Stripe stripe = new Stripe("pk_test_M6TIKEnTLXCsit8vzSO7AwYe");
 
             // Wait
             if (this.userCard.validateCard()) {
@@ -56,6 +67,41 @@ public class PaymentManager {
                                 mytoken = token;
                                 message(mytoken.getId());
                                 message("Token successfully obtained! " + mytoken.getCard());
+
+                                Map<String, Object> chargeParams = new HashMap<String, Object>();
+                                chargeParams.put("amount", amount); // Amount in cents
+                                chargeParams.put("currency", "usd");
+                                chargeParams.put("source", mytoken.getCard()); // TODO that may be wrong
+                                chargeParams.put("description", "A generous donation to United Way.");
+
+                                try {
+                                    stripe.setDefaultPublishableKey("pk_test_M6TIKEnTLXCsit8vzSO7AwYe");
+                                } catch (AuthenticationException e) {
+                                    e.printStackTrace();
+                                }
+
+
+                                // Submit charge to user.
+                                Charge charge;
+                                try {
+                                    message("About to charge");
+                                     charge = Charge.create(chargeParams);
+                                    message("Yo it's been charged!" + charge.getDescription());
+                                } catch (InvalidRequestException e) {
+                                    e.printStackTrace();
+                                } catch (APIConnectionException e) {
+                                    e.printStackTrace();
+                                } catch (APIException e) {
+                                    e.printStackTrace();
+                                } catch (CardException e) {
+                                    e.printStackTrace();
+                                } catch (AuthenticationException e) {
+                                    e.printStackTrace();
+                                }
+
+
+
+
 //                                doneSignal.countDown();
                             }
                         }
@@ -64,38 +110,8 @@ public class PaymentManager {
                 message("Error validating card!");
             }
         } catch (Exception e) {
-            message("Error! " + e.getLocalizedMessage());
-        }
-    }
-
-    /**
-     *
-     * @param amount Dollar amount in cents of transaction.
-     * @throws AuthenticationException
-     * @throws APIException
-     */
-    public void chargeCard(int amount) throws AuthenticationException, APIException {
-        // Create a charge: this will charge the user's card
-        try {
-            message("Attempting to charge card!");
-
-            //
-            Map<String, Object> chargeParams = new HashMap<String, Object>();
-            chargeParams.put("amount", amount); // Amount in cents
-            chargeParams.put("currency", "usd");
-            chargeParams.put("source", this.mytoken.getId()); // TODO that may be wrong
-            chargeParams.put("description", "A generous donation to United Way.");
-
-            // Submit charge to user.
-            Charge charge = Charge.create(chargeParams);
-            message("Yo it's been charged!");
-        } catch (CardException e) {
             // The card has been declined
             message("Card rejected?");
-        } catch (InvalidRequestException e) {
-            e.printStackTrace();
-        } catch (APIConnectionException e) {
-            e.printStackTrace();
         }
     }
 

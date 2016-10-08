@@ -32,11 +32,11 @@ public class MainActivity extends AppCompatActivity {
 //        });
 
         PaymentManager manager = new PaymentManager(
-                "4242-4242-4242-4242", 12, 2017, "123", getApplicationContext()
+                "4242-4242-4242-4242", 12, 2017, "123"
         );
 
         try {
-            manager.chargeCard(500);
+            manager.chargeCard(5000);
         } catch (Exception e) {
             manager.message("Something broke!");
             manager.message(e.getMessage());
