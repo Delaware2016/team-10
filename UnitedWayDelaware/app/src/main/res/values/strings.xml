@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UnitedWayDelaware</string>
+    <string name="welcome_screen">Welcome</string>
 </resources>
