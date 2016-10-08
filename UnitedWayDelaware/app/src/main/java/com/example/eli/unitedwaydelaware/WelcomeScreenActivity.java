@@ -47,12 +47,11 @@ public class WelcomeScreenActivity extends AppCompatActivity {
                 "!4m2!3m1!1s0x89c47c43049f45eb:0x85717b8ab2474015?sa=X&ved=0ahUKEwiKmcv0nsrPAhUDyT4KHQozC3UQ8gEIGzAA",
                 "11/12/2016"));
         events.add(new EventClass("Volunteer this Monday at Della Ware's House!", "Come out for a ton of fun" +
-                " in the dress", R.drawable.lion, "https://www.google.com/maps/place/Delaware/@39.1420107," +
-                "-76.5401901,8z/data=!3m1!4b1!4m5!3m4!1s0x89c705764d0cd63b:0x941d2d128c04e878!8m2!3d38.9108325!4d-75.5276699",
+                " in the dress", R.drawable.lion, "40.741895,-73.989308",
                 "11/12/2016"));
     }
     private void initializeAdapter(){
-        RVAdapter adapter = new RVAdapter(events);
+        RVAdapter adapter = new RVAdapter(events,this);
         rv.setAdapter(adapter);
     }
 }
